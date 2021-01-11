@@ -13,12 +13,12 @@
 <!-- asset managment -->
 			<a-assets>
 				<img id="sky" src="2560px-Hipparcos_Catalogue.jpg">
-				<a-asset-item id="states" src="StateCapitals50(1).glb"></a-asset-item>
+				<a-asset-item id="states" src="floortest.gltf"></a-asset-item>
 			</a-assets>
 <!-- Sky -->
 			<a-sky src="#sky"></a-sky>
 <!-- Model import-->
-			<a-entity glb-model="#states"></a-entity>
+			<a-entity gltf-model="#states"></a-entity>
 <!-- AFrame native objects -->
 			<a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow></a-box>
 			<a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" shadow></a-sphere>
